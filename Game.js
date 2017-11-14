@@ -14,12 +14,12 @@ function create() {
 
     //  The hero!
     player = game.add.sprite(400, 500, 'ship');
-    player.anchor.setTo(5.0, 5.0);
+    player.anchor.setTo(0.5, 0.5);
 }
 
 function update() {
  //  Scroll the background
-    starfield.tilePosition.x += 2;
+    starfield.tilePosition.y += 2;
 }
 
 function render() {
