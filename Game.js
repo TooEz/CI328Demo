@@ -4,8 +4,8 @@ var player;
 var starfield;
 
 function preload() {
-    game.load.image('starfield', 'https://github.com/TooEz/CI328Demo/blob/master/Game_bg_space.png');
-    game.load.image('ship', 'https://github.com/TooEz/CI328Demo/blob/master/ship10.png');
+    game.load.image('starfield', 'Game_bg_space.png');
+    game.load.image('ship', 'ship10.png');
 }
 
 function create() {
