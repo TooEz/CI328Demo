@@ -19,7 +19,7 @@ function create() {
 
 function update() {
  //  Scroll the background
-    starfield.tilePosition.y += 2;
+    starfield.tilePosition.x += 2;
 }
 
 function render() {
