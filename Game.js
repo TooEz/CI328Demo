@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800,600, Phaser.AUTO, 'phaser-demo', {preload: preload, create: create, update: update, render: render});
+var game = new Phaser.Game(1024,1024, Phaser.AUTO, 'phaser-demo', {preload: preload, create: create, update: update, render: render});
 
 var player;
 var starfield;
@@ -10,7 +10,7 @@ function preload() {
 
 function create() {
     //  The scrolling starfield background
-    starfield = game.add.tileSprite(0, 0, 800, 600, 'starfield');
+    starfield = game.add.tileSprite(0, 0, 1024, 1024, 'starfield');
 
     //  The hero!
     player = game.add.sprite(400, 500, 'ship');
